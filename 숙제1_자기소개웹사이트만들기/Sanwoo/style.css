@@ -1,0 +1,211 @@
+*{margin:0;padding:0;box-sizing:border-box;font:inherit;color:inherit;}
+
+html {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li li {
+    margin-bottom: 0;
+}
+
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background-color:#92C7CF;
+}
+
+
+
+footer {
+    height: 30px;
+    background-color:#AAD7D9;
+    text-align: center;
+    clear: both;
+}
+
+footer > p {
+    display: inline;
+    vertical-align: middle;
+}
+
+/*style for header */
+
+.image-container {
+    width: 30%;
+    display: inline-block;
+    position: relative;
+}
+
+#profile-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 20px 0px 20px 50px;
+    position: relative;
+    vertical-align: middle;
+
+    border: 1px solid;
+    border-color: #e5e5e5 #dbdbdb #d2d2d2;
+    box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+}
+
+.bio {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav ul {
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: bold;
+    color:darkblue;
+}
+
+.link:hover {
+    color:deepskyblue;
+}
+
+
+/*style for main */
+main {
+    background-color: #FBF9F1;
+    height: 1450px;
+    position: relative;
+}
+
+/* style for aside */
+#sidebar-container {
+    
+    background-color: #E5E1DA;
+    width: 30%;
+    height: 100%;
+    float: left;
+    padding: 30px;
+}
+
+#main-content-container {
+    width: 65%;
+    height: 100%;
+    float: right;
+    padding: 30px 30px 30px 0px;
+}
+
+
+/* style for info-card div */
+.info-card {
+    margin-bottom: 30px;
+}
+
+.info-card .logo {
+    width: 30px;
+    height: 30px;
+}
+
+.info-card h3 {
+    display: inline;
+}
+
+.info-card img {
+    border-radius: 50%;
+}
+
+#education-card ul {
+    list-style-type: none;
+}
+
+.job-title {
+    font-weight: bold;
+    list-style-type: none;
+    position: relative;
+    right: 20px;
+}
+
+
+/* style for more-about-me.html */
+
+main#more-about-me {
+    height: 100%;
+}
+
+
+#main-content-container-wo-sidebar {
+    width: 100%;
+    height: 100%;
+}
+
+
+.horizontal-division-line {
+    background-color: black;
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo-card {
+    width: 495px;
+    text-align: center;
+    /* margin-top: 10px; */
+    padding: 15px;
+    display: inline-block;
+    /* background-color:#87cefa; */
+    background-color: rgba( 135, 206, 250, 0.5 );
+}
+
+.vertical-image {
+    border-radius: 5%;
+    width: 200px;
+}
+
+.horizontal-image {
+    border-radius: 5%;
+    width: 350px;
+}
+
+.left {
+    position: relative;
+    left: 0px;
+}
+
+.right {
+    position: relative;
+    left: 505px;
+}
+
+
