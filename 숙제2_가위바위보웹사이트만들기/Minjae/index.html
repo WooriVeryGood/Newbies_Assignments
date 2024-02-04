@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RSP_Minjae</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+KR&family=Noto+Sans+SC&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Rock Scissors Paper! With. Marble 
+        <img src="./image/Marble.jfif" alt="Marble">
+      </h1>
+
+      <h2>Score Board 
+        <button class="reset">
+          Reset
+        </button>
+      </h2>
+      <div class="score">
+        <div class="score board">
+          <p class="score text">Player 0 : 0 Computer</p>
+        </div>
+        <div class="choice">
+          <div class="choice player">
+            <img class="score_image" src="./image/R.jfif" alt="Rock" />
+            <p>Player</p>
+          </div>
+          <div class="result">
+            <h3>Computer Marble is waiting for you..</h3>
+          </div>
+          <div class="choice computer">
+            <img class="score_image" src="./image/R.jfif" alt="Rock" />
+            <p>Computer</p>
+          </div>
+        </div>
+      </div>
+    
+      <h2>Pick Yours!</h2>
+      <div class="selector">
+        <button class="rock btn">
+          <img class="RSP_image" src="./image/R.jfif" alt="Rock" />
+        </button>
+        <button class="scissors btn">
+          <img class="RSP_image" src="./image/S.jfif" alt="Scissors" />
+        </button>
+        <button class="paper btn">
+          <img class="RSP_image" src="./image/P.jfif" alt="Paper" />
+        </button>
+      </div>
+    </div>
+    
+    <div id="hidden_img" class="hidden reset">
+      <img src="./image/Lose3.jfif" alt="Lose Three Times">
+    </div>
+    <footer>
+      Made by Minjae Oh
+    </footer>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
+
