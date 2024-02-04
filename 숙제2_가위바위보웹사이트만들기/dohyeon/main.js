@@ -35,11 +35,17 @@ document.addEventListener("DOMContentLoaded", function () {
         // 결과 계산
         const result = calculateResult(playerChoice, computerChoice);
 
+        // 결과에 따라 점수 및 메시지 갱신
+        updateScore(result);
+
+        // 선택 표시
         displayChoice("player", playerChoice, imagePath[playerChoice]);
         displayChoice("computer", computerChoice, imagePath[computerChoice]);
 
-        // 결과에 따라 점수 및 메시지 갱신
-        updateScore(result);
+        // 3판 진행 완료시 게임 종료
+        if (roundsPlayed === 3) {
+            finishGame();
+        }
     }
 
     function displayChoice(player, choice, imagePath) {
@@ -98,30 +104,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 게임 종료
     function finishGame() {
-        if (roundsPlayed === 3) {
-            let winnerMessage;
-            if (playerWins === 3) {
-                winnerMessage = "이겼다!";
-            } else if (computerWins === 3) {
-                winnerMessage = "졌다,,";
-            }
-            else if (playerWins > computerWins) {
-                winnerMessage = "이겼다!";
-            }
-            else if (playerWins < computerWins) {
-                winnerMessage = "졌다,,";
-            }
-            else if (playerWins === computerWins && playerWins !== 3 && computerWins !== 3) {
-                winnerMessage = "비겼는데, 한 판 더?";
-            }
+        let winnerMessage;
 
-            alert(winnerMessage);
-
-            // 초기화
-            playerWins = 0;
-            computerWins = 0;
-            roundsPlayed = 0;
-            resetGame();
+        if (playerWins > computerWins) {
+            winnerMessage = "이겼다!";
+        } else if (playerWins < computerWins) {
+            winnerMessage = "졌다,,";
+        } else {
+            winnerMessage = "비겼는데, 한 판 더?";
         }
+
+        alert(winnerMessage);
+
+        // 초기화
+        playerWins = 0;
+        computerWins = 0;
+        roundsPlayed = 0;
+        resetGame();
     }
 });
