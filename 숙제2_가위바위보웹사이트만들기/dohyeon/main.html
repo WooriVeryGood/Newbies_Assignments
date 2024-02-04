@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3판 가위바위보</title>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Inconsolata&family=Poor+Story&display=swap" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Inconsolata:wght@400;800&family=Poor+Story&family=Poppins:wght@600&family=Single+Day&family=Ubuntu:wght@500&family=Yeseva+One&display=swap"
+        rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- 게임 이름 -->
+    <div class="gameHead">
+        <h1 class="title">
+            안 내면 진다 가위바위보
+        </h1>
+    </div>
+    <!-- 가위바위보 비교 -->
+    <div class="compare">
+        <div class="me">
+            <span>player</span>
+            <div class="playerImg"></div>
+        </div>
+        <h2>vs</h2>
+        <div class="computer">
+            <span>computer</span>
+            <div class="computerImg"></div>
+        </div>
+    </div>
+    <!-- 점수판 -->
+    <ul class="scoreBoard">
+        <li>
+            <p class="playerPoint">0</p>
+        </li>
+        <li>
+            :
+        </li>
+        <li>
+            <p class="computerPoint">0</p>
+        </li>
+    </ul>
+    <!-- 가위바위보 선택 -->
+    <div class="rspGame">
+        <button id="scissor">가위</button>
+        <button id="rock">바위</button>
+        <button id="paper">보</button>
+    </div>
+    <!-- 기타 -->
+    <div>
+        <button id="resetButton">재시작</button>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
