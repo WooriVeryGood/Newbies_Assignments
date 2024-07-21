@@ -1,0 +1,179 @@
+body{
+    margin:0px;
+    background-color:rgb(250, 183, 0)
+}
+.topbox{
+    width: 100%;
+    height: 90px;
+    background-color:  mediumturquoise;
+}
+#logo{
+    display:inline-block;
+    width:70px;
+    height:70px;
+    border:10px solid rgb(234, 90, 247);
+    border-radius: 10%;
+    position:relative;
+    left:50px;
+
+}
+#mj{
+    position:relative;
+    left:70px;
+    bottom:25px;
+    font-size: 50px;
+    font-family: "Ga Maamli";
+}
+h1{
+    margin:0px;
+    color:#eb0f84;
+    display:inline-block;
+}
+#home{
+    position:relative;
+    bottom:30px;
+    left:30%;
+    font-family: "Ga Maamli";
+}
+#about{
+    position:relative;
+    bottom:30px;
+    left:35%;
+    font-family: Ga Maamli;
+
+}
+#hobby{
+    position:relative;
+    bottom:30px;
+    left:40%;
+    font-family: Ga maamli;
+
+}
+#ai{
+    position:relative;
+    width:40%;
+    display:inline-block;
+    float:left;
+    top:100px;
+    left:60px;
+    border:20px solid blue;
+    border-radius: 10%;
+    
+}
+#ais{
+    font-size: 40px;
+    font-weight: 600;
+    font-family:Nanum Pen Script ;
+    width:700px;
+    position:relative;
+    float:right;
+    right:60px;
+    top:40px
+}
+#C{
+    float:right;
+    width:40%;
+    position:relative;
+    display:inline-block;
+    top:200px;
+    left:600px;
+    border:20px solid rgb(205, 50, 195);
+    border-radius: 10%;
+    
+}
+#cs{
+    font-size: 40px;
+    font-weight: 600;
+    font-family:Nanum Pen Script ;
+    width:700px;
+    position:relative;
+    float:left;
+    bottom:290px;
+    left:50px;
+
+}
+#algo{
+    float:left;
+    display: inline-block;
+    position: relative;
+    right:650px;
+    top:350px;
+    width:40%;
+    border:20px solid mediumspringgreen;
+    border-radius: 10%;
+
+}
+#rithm{
+    font-size: 40px;
+    font-weight: 600;
+    font-family:Nanum Pen Script ;
+    width:700px;
+    position:relative;
+    float:right;
+    bottom:50px;
+
+}
+#rlf{
+    position:relative;
+    display:inline-block;
+    width:40%;
+    float:left;
+    top:220px;
+    left:70px;
+
+}
+#ml{
+    position:relative;
+    display: inline-block;
+    border:20px solid rgb(77, 173, 154);
+    border-radius: 10%;
+    left:600px;
+    top:250px;
+    float:right;
+
+
+}
+#a{
+    font-size: 40px;
+    font-weight: 600;
+    font-family:Nanum Pen Script ;
+    width:700px;
+    position:relative;
+    float:left;
+    left:50px;
+    bottom:70px;
+
+}
+#ailini{
+    position:relative;
+    display:inline-block;
+
+    float:left;
+    top:300px;
+    right:670px;
+
+}
+#b{
+    position:relative;
+    display:inline-block;
+    float:right;
+    width:50%;
+    right:50px;
+}
+#c{
+    position: relative;
+    display:inline-block;
+    float:right;
+    width:45%;
+    left:640px;
+    top:320px;
+}
+#d{
+    position: relative;
+    display: inline-block;
+    float:left;
+    width:45%;
+    bottom:80px;
+
+
+}

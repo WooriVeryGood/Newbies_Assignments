@@ -1,0 +1,153 @@
+body{
+    margin:0px;
+    background-color: burlywood;
+}
+.firstbox{
+    margin-top: 0px;
+    background-color: dimgray;
+    height:20px;
+    width:100%;
+    text-align: center;
+    position:absolute
+}
+.topbox{
+    background-color:black;
+    position:absolute;
+    width:100%;
+    height:90px;
+}
+.topbox>h1{
+    text-align: center;
+    color: rgb(225, 114, 10);
+    font-family:"Playwrite DK Uloopet" ;
+}
+.topbox>img{
+    position:relative;
+    width: 70px;
+    height:70px;
+    bottom:90px;
+    
+}
+.topbox>#fi{
+    left:70px;
+}
+.topbox>#si{
+    left:120px;
+}
+.topbox>#ti{
+    left:170px;
+}
+.topbox>#fo{
+    left:900px
+}
+.topbox>#fiv{
+    left:950px
+}
+.topbox>#six{
+    left:1000px;
+}
+
+#fp{
+    width:100%;
+    height:100%;
+    margin-top:80px;
+}
+.firsticon .about{
+    height: 350px;
+    width:350px;
+    position:absolute;
+    bottom:100px;
+    left:100px;
+}
+.firsticon img{
+    border-radius: 10%;
+    border:20px solid black
+}
+.secondicon img{
+    height:350px;
+    width:350px;
+    border-radius: 10%;
+    position: absolute;
+    left: 560px;
+    bottom:100px;
+    border:20px solid pink;
+
+}
+.thirdicon img{
+    height: 350px;
+    width:350px;
+    border-radius: 10%;
+    position:absolute;
+    left:1020px;
+    bottom:100px;
+    border:20px solid mediumturquoise
+
+
+}
+#aboutme{
+    position:relative;
+    border:15px solid black;
+    background-color: rgb(247, 161, 112);
+    height:90px;
+    width: 360px;
+    left:100px;
+    bottom:270px;
+    display:inline-block;
+
+}
+#aboutme h1{
+    text-align: center;
+}
+#myhobby{
+    position:relative;
+    border:15px solid pink;
+    background-color: aqua;
+    width:360px;
+    height:90px;
+    left:560px;
+    bottom:385px;
+    display:inline-block;
+
+}
+#myhobby>h1{
+    text-align: center;
+}
+#major{
+    position:relative;
+    border:15px solid mediumturquoise;
+    background-color:rgb(215, 88, 49) ;
+    left:1020px;
+    bottom:505px;
+    height:90px;
+    width:360px;
+    display: inline-block;
+}
+#major>h1{
+    text-align: center;
+
+}
+.lastbox{
+    background-color: rgba(47, 4, 4, 0.664);
+    position:relative;
+    width:100%;
+    height: 200px;
+    bottom:360px;
+
+}
+.lastbox2{
+    background-color: saddlebrown;
+    height:200px;
+    width:100%;
+    position: relative;
+    bottom:360px
+}
+.lastbox>h1{
+    margin:0px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+p{
+    font-size: 25px;
+    text-align: center;  
+}
