@@ -1,0 +1,26 @@
+.my_pic{
+    width: 300px;
+    height: auto;
+}
+#my_name{
+    display: inline-block;
+}
+.Topic{
+    border-style: solid;
+    border-width: 0px 0px 4px 0px; 
+}
+.self_intro{
+    border-style: dotted;
+    border-width: 0px 0px 2px 0px; 
+}
+*{
+    background-color:bisque;
+}
+.workout{
+    float: left;
+    width: auto;
+    height: 400px;
+}
+.benefits{
+    font-size: 19px;
+}
