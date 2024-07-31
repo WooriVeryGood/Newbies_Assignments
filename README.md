@@ -1,6 +1,6 @@
 # Newbies_Assignments
 2023-2024학년도 여름방학 신입들의 과제 저장소입니다.
-
+pull test
 ## :people_hugging: Authors
 <table>
 <tr height="150px">
@@ -13,6 +13,11 @@
     <a href="https://github.com/hannihena"><img height="150px" width="150px" src="https://avatars.githubusercontent.com/u/162086419?v=4"/></a>
     <br />
     <a href="https://github.com/hannihena">이하늘 </a>
+    </td>
+    <td align="center">
+    <a href="https://github.com/Toohoon"><img height="150px" width="150px" src="https://avatars.githubusercontent.com/u/102578052?v=4"/></a>
+    <br />
+    <a href="https://github.com/Toohoon">정두훈 </a>
     </td>
   </tr>
 </table>
