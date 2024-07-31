@@ -5,19 +5,19 @@ pull test
 <table>
 <tr height="150px">
     <td align="center">
-    <a href="https://github.com/sanwooo"><img height="150px" width="150px" src="https://avatars.githubusercontent.com/u/79380206?v=4"/></a>
+    <a href="https://github.com/madminton"><img height="150px" width="150px" src="https://avatars.githubusercontent.com/u/144883060?v=4"/></a>
     <br />
-    <a href="https://github.com/sanwooo">이산우 </a>
+    <a href="https://github.com/madminton">김민성 </a>
     </td>
     <td align="center">
-    <a href="https://github.com/ttodll"><img height="150px" width="150px" src="https://avatars.githubusercontent.com/u/123301277?v=4"/></a>
+    <a href="https://github.com/hannihena"><img height="150px" width="150px" src="https://avatars.githubusercontent.com/u/162086419?v=4"/></a>
     <br />
-    <a href="https://github.com/ttodll">임도현 </a>
+    <a href="https://github.com/hannihena">이하늘 </a>
     </td>
     <td align="center">
-    <a href="https://github.com/mingdae"><img height="150px" width="150px" src="https://avatars.githubusercontent.com/u/103407209?v=4"/></a>
+    <a href="https://github.com/Toohoon"><img height="150px" width="150px" src="https://avatars.githubusercontent.com/u/102578052?v=4"/></a>
     <br />
-    <a href="https://github.com/mingdae">오민재 </a>
+    <a href="https://github.com/Toohoon">정두훈 </a>
     </td>
   </tr>
 </table>
