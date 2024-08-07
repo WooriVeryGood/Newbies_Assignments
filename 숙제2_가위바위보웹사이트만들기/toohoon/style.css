@@ -1,0 +1,39 @@
+.whole_menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*height: 70vh;*/
+    gap: 30px;
+}
+*{
+    background-color:cornflowerblue;
+}
+.game_title{
+    font-size: 60px;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.Attack_Button{
+    display: flex;
+    gap: 50px;
+}
+.attack_button_1{
+    font-size:100px;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    gap: 50px;
+}
+#winner{
+    font-size: 70px;
+}
+.result_1{
+    display: flex;
+    font-size: 30px;
+}
